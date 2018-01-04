@@ -1,0 +1,292 @@
+{
+  "version": "0.5.1",
+  "modules": [
+    {
+      "plugin": "Core",
+      "model": "AudioInterface",
+      "pos": [
+        1725.0,
+        0.0
+      ],
+      "params": [],
+      "data": {
+        "driver": 6,
+        "device": 2,
+        "sampleRate": 48000.0,
+        "blockSize": 256
+      }
+    },
+    {
+      "plugin": "Fundamental",
+      "model": "VCO",
+      "pos": [
+        1020.0,
+        0.0
+      ],
+      "params": [
+        1.0,
+        1.0,
+        -24.461997985839844,
+        -0.0029998188838362694,
+        0.47199997305870056,
+        0.13800004124641418,
+        1.0
+      ]
+    },
+    {
+      "plugin": "Fundamental",
+      "model": "SEQ3",
+      "pos": [
+        0.0,
+        0.0
+      ],
+      "params": [
+        2.0240004062652588,
+        0.0,
+        0.0,
+        8.0,
+        1.8149995803833008,
+        6.4500017166137695,
+        4.6349992752075195,
+        0.0,
+        0.0,
+        4.4549999237060547,
+        0.0,
+        0.0,
+        2.6549975872039795,
+        3.7199993133544922,
+        0.0,
+        0.0,
+        3.6600003242492676,
+        2.5500006675720215,
+        0.0,
+        0.0,
+        0.0,
+        1.5149996280670166,
+        0.0,
+        0.0,
+        4.0350003242492676,
+        1.0499998331069946,
+        0.0,
+        0.0,
+        2.2050001621246338,
+        2.4749999046325684,
+        0.0,
+        0.0,
+        0.0,
+        3.7200014591217041,
+        0.0,
+        0.0
+      ],
+      "data": {
+        "running": true,
+        "gates": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "gateMode": 0
+      }
+    },
+    {
+      "plugin": "Fundamental",
+      "model": "Unity",
+      "pos": [
+        1635.0,
+        0.0
+      ],
+      "params": [
+        1.0,
+        0.0
+      ],
+      "data": {
+        "merge": false
+      }
+    },
+    {
+      "plugin": "Fundamental",
+      "model": "ADSR",
+      "pos": [
+        1260.0,
+        0.0
+      ],
+      "params": [
+        0.50849980115890503,
+        0.63950008153915405,
+        0.59449994564056396,
+        0.58250021934509277
+      ]
+    },
+    {
+      "plugin": "Fundamental",
+      "model": "VCO2",
+      "pos": [
+        420.0,
+        0.0
+      ],
+      "params": [
+        1.0,
+        1.0,
+        -13.445998191833496,
+        3.0,
+        1.0
+      ]
+    },
+    {
+      "plugin": "Fundamental",
+      "model": "Unity",
+      "pos": [
+        870.0,
+        0.0
+      ],
+      "params": [
+        1.0,
+        1.0
+      ],
+      "data": {
+        "merge": false
+      }
+    },
+    {
+      "plugin": "Fundamental",
+      "model": "VCO2",
+      "pos": [
+        510.0,
+        0.0
+      ],
+      "params": [
+        1.0,
+        1.0,
+        -54.0,
+        3.0,
+        1.0
+      ]
+    },
+    {
+      "plugin": "Fundamental",
+      "model": "VCO2",
+      "pos": [
+        600.0,
+        0.0
+      ],
+      "params": [
+        1.0,
+        1.0,
+        -38.069980621337891,
+        1.5,
+        0.0
+      ]
+    },
+    {
+      "plugin": "Fundamental",
+      "model": "VCMixer",
+      "pos": [
+        720.0,
+        0.0
+      ],
+      "params": [
+        0.5,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "plugin": "Fundamental",
+      "model": "VCA",
+      "pos": [
+        1485.0,
+        0.0
+      ],
+      "params": [
+        0.51350003480911255,
+        0.5
+      ]
+    }
+  ],
+  "wires": [
+    {
+      "outputModuleId": 3,
+      "outputId": 0,
+      "inputModuleId": 0,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 2,
+      "outputId": 0,
+      "inputModuleId": 4,
+      "inputId": 4
+    },
+    {
+      "outputModuleId": 6,
+      "outputId": 0,
+      "inputModuleId": 1,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 5,
+      "outputId": 0,
+      "inputModuleId": 9,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 2,
+      "outputId": 1,
+      "inputModuleId": 1,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 7,
+      "outputId": 0,
+      "inputModuleId": 9,
+      "inputId": 3
+    },
+    {
+      "outputModuleId": 9,
+      "outputId": 2,
+      "inputModuleId": 6,
+      "inputId": 4
+    },
+    {
+      "outputModuleId": 9,
+      "outputId": 1,
+      "inputModuleId": 6,
+      "inputId": 2
+    },
+    {
+      "outputModuleId": 9,
+      "outputId": 0,
+      "inputModuleId": 6,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 9,
+      "outputId": 3,
+      "inputModuleId": 6,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 3,
+      "outputId": 0,
+      "inputModuleId": 0,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 1,
+      "outputId": 0,
+      "inputModuleId": 10,
+      "inputId": 2
+    },
+    {
+      "outputModuleId": 10,
+      "outputId": 0,
+      "inputModuleId": 3,
+      "inputId": 0
+    }
+  ]
+}
