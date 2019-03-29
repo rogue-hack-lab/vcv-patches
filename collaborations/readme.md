@@ -29,3 +29,5 @@ in an effort to ensure everyone can participate without having special audio equ
 * All sound is generated in VCV rack. No input from external hardware or VST instruments
 
 * Only use free modules
+
+* Voices, patterns, and other such multi-module patches should be surrounded on either side with matching blank panels to help isolete them visibly. If you see any modules in this arrangement, avoid modifying or tying into them in order to keep instruments of a track decoupled.
